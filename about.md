@@ -16,3 +16,7 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+{% for project in site.projects %}
+  <h2>{{ project.title }}</h2>
+{% endfor %}
