@@ -1,6 +1,6 @@
 # main text of home
 name: Arnaud Mathias
-bio: dev
+bio: Computer Graphics enthusiast
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -55,7 +55,7 @@ email: arndmathias@gmail.com
 authors:
     arnaud:
         name: Arnaud Mathias
-        bio: dev
+        bio: test
         external-image: false
         picture: assets/images/profile.jpg
 
