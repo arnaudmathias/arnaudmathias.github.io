@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    heiswayi.nrird.com (6.0.0)
+    arnaudmathias.com (1.0.0)
       jekyll (~> 3.5)
 
 GEM
@@ -71,8 +71,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  arnaudmathias.com!
   bundler (~> 1.15)
-  heiswayi.nrird.com!
   jekyll-sitemap
   rake (~> 12.0)
   tzinfo
