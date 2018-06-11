@@ -1,0 +1,57 @@
+# Basic site info
+title:              "Arnaud Mathias •••"
+description:        "Between coding and random stuffs"
+keywords:           "arnaud mathias, personal blog, software engineer, 3D Graphics"
+logo_text:          "Arnaud Mathias"
+show_tagline:       true # edit file in /_includes/tagline.html
+show_social_icons:  true # edit file in /_includes/social_links.html
+og_locale:          "en_US"
+cover:              "/assets/logo.png" # site image cover
+
+# Site URL settings
+url:                https://arnaudmathias.com # main url
+baseurl:            null # for gh-pages
+enforce_ssl:        #heiswayi.nrird.com
+github_post_dir:    https://github.com/heiswayi/heiswayi.github.io/blob/master/
+
+# Site author info
+author:
+  name:             "Arnaud Mathias"
+  email:            arndmathias@gmail.com
+  github_username:  indiedriver
+  twitter_username:
+  facebook_url:
+
+# Disqus comment settings
+disqus_enabled:     false
+disqus_shortname:
+
+# Google Analytics ID
+google_analytics_code:
+
+# Build settings
+source:             ./
+destination:        ./_site
+permalink:          /:year/:title
+markdown:           kramdown
+highlighter:        rouge
+timezone:           Europe/Paris
+exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md", "google9bb6a6dc60c4e360.html"]
+
+# Site configurations
+compress_html:
+  clippings:        all
+  comments:         ["<!-- ", " -->"]
+  endings:          all
+  ignore:
+    envs:           [local]
+  blanklines:       false
+  profile:          false
+  startings:        [html, head, body]
+
+sass:
+  sass_dir:         assets/scss
+  style:            compressed # expanded
+
+plugins:
+  - jekyll-sitemap
