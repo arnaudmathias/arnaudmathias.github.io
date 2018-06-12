@@ -27,7 +27,7 @@ disqus_enabled:     false
 disqus_shortname:
 
 # Google Analytics ID
-google_analytics_code:
+google_analytics_code: UA-120737639-1
 
 # Build settings
 source:             ./
