@@ -1,6 +1,6 @@
 # Basic site info
 title:              "Arnaud Mathias •••"
-description:        "Between coding and random stuffs"
+description:        "Graphics programmer"
 keywords:           "arnaud mathias, personal blog, software engineer, 3D Graphics"
 logo_text:          "Arnaud Mathias"
 show_tagline:       true # edit file in /_includes/tagline.html
@@ -12,7 +12,7 @@ cover:              "/assets/logo.png" # site image cover
 url:                https://arnaudmathias.com # main url
 baseurl:            null # for gh-pages
 enforce_ssl:        #heiswayi.nrird.com
-github_post_dir:    https://github.com/heiswayi/heiswayi.github.io/blob/master/
+github_post_dir:
 
 # Site author info
 author:

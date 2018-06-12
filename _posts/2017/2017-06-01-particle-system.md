@@ -2,7 +2,7 @@
 layout: post
 title: ParticleSystem
 description: Particle system exploiting OpenGL / OpenCL interoperability
-keywords: minimalist, web-based app, writing tool, document writer
+keywords: particlesystem, OpenGL, OpenCL, interoperability
 tags: [3D, OpenGL, OpenCL, Project]
 comments: true
 ---
