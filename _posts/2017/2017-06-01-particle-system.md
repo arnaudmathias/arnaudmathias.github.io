@@ -3,7 +3,7 @@ layout: post
 title: ParticleSystem
 description: Particle system exploiting OpenGL / OpenCL interoperability
 keywords: particlesystem, OpenGL, OpenCL, interoperability
-tags: [3D, OpenGL, OpenCL, Project]
+tags: [Graphics, OpenGL, OpenCL, Project]
 comments: true
 ---
 

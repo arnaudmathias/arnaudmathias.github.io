@@ -3,7 +3,7 @@ layout: post
 title: ShaderPixel
 description: Fragment shaders portfolio in a 3D environment
 keywords: ShaderPixel, ShaderToy, 3D, raymarching
-tags: [3D, Raymarching, Project]
+tags: [Graphics, OpenGL, Raymarching, Project]
 comments: true
 ---
 
