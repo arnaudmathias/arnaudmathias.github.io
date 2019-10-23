@@ -16,10 +16,10 @@ Most of my projects can be found of my [GitHub](https://github.com/indiedriver)
 
 #### Skills
 * C / C++
-* Java
+* Vulkan
 * OpenGL
 * OpenCL
-* Vulkan
 * Unity 3D
 * JavaScript
 * C#
+* Java
