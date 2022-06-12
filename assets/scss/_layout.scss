@@ -648,3 +648,76 @@ a.skip:hover {
         margin-top: 2rem;
     }
 }
+
+#grid {
+    max-width: 1024px;
+    display: grid;
+    //justify-content: bottom;
+    //align-content: bottom;
+    gap: 4px;
+    //grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-columns: 50.0% 50.0%;
+}
+
+#grid figure {
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    display: flex;
+    flex-flow: column;
+    &:hover {
+        background-color: transparent;
+    }
+}
+#grid a {
+    padding: 3px 10px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    color: #777;
+    -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -ms-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    background: transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    &:hover {
+        color: #777;
+        background: transparent;
+    }
+}
+
+#grid img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+figcaption {
+    margin: 0;
+    //color: #505050;
+    color: #505050;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    //background-color: #222;
+    //color: #fff;
+    //font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+

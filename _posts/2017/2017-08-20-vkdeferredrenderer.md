@@ -16,4 +16,4 @@ The program consist of two pass:
 
 ### Source code
 
-[**View source code on GitHub**](https://github.com/indiedriver/vkdeferredrenderer)
+[**View source code on GitHub**](https://github.com/arnaudmathias/vkdeferredrenderer)

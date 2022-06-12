@@ -1,8 +1,8 @@
 # Basic site info
-title:              "Arnaud Mathias •••"
+title:              "Arnaud MATHIAS"
 description:        "Graphics programmer"
 keywords:           "arnaud mathias, personal blog, software engineer, 3D Graphics"
-logo_text:          "Arnaud Mathias"
+logo_text:          "Arnaud MATHIAS"
 show_tagline:       true # edit file in /_includes/tagline.html
 show_social_icons:  true # edit file in /_includes/social_links.html
 og_locale:          "en_US"
@@ -18,7 +18,7 @@ github_post_dir:
 author:
   name:             "Arnaud Mathias"
   email:            arndmathias@gmail.com
-  github_username:  indiedriver
+  github_username:  arnaudmathias
   twitter_username:
   facebook_url:
 

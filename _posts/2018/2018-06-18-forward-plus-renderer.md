@@ -4,6 +4,7 @@ title: Forward+ renderer
 description: A real-time Forward+ renderer
 keywords: forward+, OpenGL, 3D
 tags: [Graphics, OpenGL, Project]
+image: https://raw.githubusercontent.com/arnaudmathias/forward_plus_renderer/master/screenshots/default.jpg
 comments: true
 ---
 
@@ -11,7 +12,7 @@ A real-time Forward+ renderer based on the paper
 [Forward+: Bringing Deferred Rendering to the Next Level](https://takahiroharada.files.wordpress.com/2015/04/forward_plus.pdf)
 by Takahiro Harada, Jay McKee, and Jason C. Yang.
 
-![screenshot](https://raw.githubusercontent.com/indiedriver/forward_plus_renderer/master/screenshots/default.jpg)
+![screenshot](https://raw.githubusercontent.com/arnaudmathias/forward_plus_renderer/master/screenshots/default.jpg)
 
 Overview
 ----
@@ -25,7 +26,7 @@ The rendering consist of 3 pass: the **depth prepass**, the **light culling** an
 
 We fill the depth buffer by rendering the scene geometry without fragment shader.
   
-![depthpass](https://raw.githubusercontent.com/indiedriver/forward_plus_renderer/master/screenshots/depth_buffer.jpg)
+![depthpass](https://raw.githubusercontent.com/arnaudmathias/forward_plus_renderer/master/screenshots/depth_buffer.jpg)
 
 ### 2. Light culling
 
@@ -38,14 +39,14 @@ A thread calculates the frustum planes for that tile, which will be shared by al
 Then each thread calculates in parallel (256 max) whether or not a light is inside the frustum.
 The visible light indices are stored back by a single thread into a SSBO (Shader Storage Buffer Object).
 
-![light visibility](https://raw.githubusercontent.com/indiedriver/forward_plus_renderer/master/screenshots/light_visibility.jpg)
+![light visibility](https://raw.githubusercontent.com/arnaudmathias/forward_plus_renderer/master/screenshots/light_visibility.jpg)
 
 ### 3. Final shading
 
 For each fragment, we loop through the lights indices stored into the SSBO and accumulate the light contributions using a full direct lighting PBR.  
 The resulting color is stored within a HDR buffer and is post-processed in a final shader.
 
-![final shading with light debug](https://raw.githubusercontent.com/indiedriver/forward_plus_renderer/master/screenshots/light_debug.jpg)
+![final shading with light debug](https://raw.githubusercontent.com/arnaudmathias/forward_plus_renderer/master/screenshots/light_debug.jpg)
   
 
 ---
@@ -54,7 +55,7 @@ Build
 ----
   
 ```
-git clone --recursive https://github.com/indiedriver/forward_plus_renderer
+git clone --recursive https://github.com/arnaudmathias/forward_plus_renderer
 cd forward_plus_renderer
 cmake .
 ```
@@ -71,4 +72,4 @@ E              - Toggle light visibility debug
 
 ### Source code
 
-[**View source code on GitHub**](https://github.com/indiedriver/forward_plus_renderer)
+[**View source code on GitHub**](https://github.com/arnaudmathias/forward_plus_renderer)

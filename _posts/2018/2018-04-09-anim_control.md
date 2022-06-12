@@ -4,6 +4,7 @@ title: anim_control
 description: Tinkering with 3D animation blending
 keywords: anim_control, OpenGL, 3D
 tags: [Graphics, OpenGL, Animation, Project]
+image: https://i.imgur.com/yvJ1GXF.png
 comments: true
 ---
 
@@ -17,7 +18,7 @@ The project was named and inspired by a [Jonathan Blow video series](https://www
 
 ### Source code
 
-[**View source code on GitHub**](https://github.com/indiedriver/anim_control)
+[**View source code on GitHub**](https://github.com/arnaudmathias/anim_control)
 
 #### Keymap:  
 **WASD**  - move around  
@@ -28,7 +29,7 @@ The project was named and inspired by a [Jonathan Blow video series](https://www
 
 #### Build
 ```
-git clone --recursive https://github.com/indiedriver/anim_control
+git clone --recursive https://github.com/arnaudmathias/anim_control
 cd anim_control
 cmake .
 ```

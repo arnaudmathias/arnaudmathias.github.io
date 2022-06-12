@@ -17,7 +17,7 @@ published: true
         <canvas id="canvas" style="width:100%;height:100%;max-height:230px;position:absolute;z-index:1;opacity:0.5"></canvas>
         <div class="container">
           <h2 class="masthead-title">
-            <a href="{{ site.url }}" title="{{ site.title }}" class="title">{{ site.logo_text | downcase }} <span class="dot-red">•</span><span class="dot-yellow">•</span><span class="dot-green">•</span></a>
+            <a href="{{ site.url }}" title="{{ site.title }}" class="title">{{ site.logo_text }}</a>
             {% if site.show_tagline %}
             <small>{% include tagline.html %}</small>
             {% endif %}
@@ -33,7 +33,6 @@ published: true
                 <li><a href="{{ "/about" | prepend: site.baseurl | prepend: site.url }}">About</a></li>
                 <li><a href="{{ "/projects" | prepend: site.baseurl | prepend: site.url }}" class="bg-red"><i class="fa fa-space-shuttle" aria-hidden="true"></i> Projects</a></li>
                 <li><a href="{{ "/tagged" | prepend: site.baseurl | prepend: site.url }}">Tags</a></li>
-                <li><a href="{{ "/assets/pdfs/cv-arnaud-mathias.pdf" | prepend: site.baseurl | prepend: site.url }}">Resume <i class="fa fa-external-link-square"></i></a></li>
               </ul>
           </div>
 
