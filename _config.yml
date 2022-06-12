@@ -9,9 +9,9 @@ og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-url:                https://arnaudmathias.com # main url
+url:                https://arnaudmathias.github.io # main url
 baseurl:            null # for gh-pages
-enforce_ssl:        #heiswayi.nrird.com
+enforce_ssl:        
 github_post_dir:
 
 # Site author info
